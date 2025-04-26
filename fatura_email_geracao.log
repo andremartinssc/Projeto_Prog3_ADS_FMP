@@ -1,0 +1,58 @@
+2025-04-22 13:34:26,335 - INFO - Iniciando geração de PDFs e envio de e-mails a partir do CSV...
+2025-04-22 13:34:26,371 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:37:04,136 - INFO - Iniciando geração de PDFs e envio de e-mails a partir do CSV...
+2025-04-22 13:37:04,152 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:40:53,776 - INFO - Iniciando geração de PDFs e envio de e-mails a partir do CSV...
+2025-04-22 13:40:53,797 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:40:53,891 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 13:40:56,052 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:40:56,053 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com
+2025-04-22 13:40:56,098 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 13:40:57,371 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:40:57,371 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com
+2025-04-22 13:40:57,405 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 13:40:58,668 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:40:58,669 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com
+2025-04-22 13:40:58,718 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 13:41:00,010 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:41:00,010 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com
+2025-04-22 13:41:00,058 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 13:41:01,299 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:41:01,299 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com
+2025-04-22 13:41:01,300 - INFO - Processo de geração de PDFs e envio de e-mails concluído.
+2025-04-22 13:44:22,388 - INFO - Iniciando geração de PDFs e envio de e-mails a partir do CSV...
+2025-04-22 13:44:22,405 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:44:22,542 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 13:44:23,994 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:44:23,995 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com
+2025-04-22 13:44:24,063 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 13:44:25,378 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:44:25,378 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com
+2025-04-22 13:44:25,435 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 13:44:26,690 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:44:26,690 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com
+2025-04-22 13:44:26,742 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 13:44:28,935 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:44:28,935 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com
+2025-04-22 13:44:28,991 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 13:44:30,985 - ERROR - Erro ao enviar o e-mail: (334, b'UGFzc3dvcmQ6')
+2025-04-22 13:44:30,985 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com
+2025-04-22 13:44:30,985 - INFO - Processo de geração de PDFs e envio de e-mails concluído.
+2025-04-22 13:52:53,731 - INFO - Iniciando geração de PDFs e envio de e-mails a partir do CSV...
+2025-04-22 13:52:53,747 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:52:53,839 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 13:52:55,995 - ERROR - Erro de autenticação ao enviar o e-mail.
+2025-04-22 13:52:55,995 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com
+2025-04-22 13:52:56,042 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 13:52:57,902 - ERROR - Erro de autenticação ao enviar o e-mail.
+2025-04-22 13:52:57,902 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com
+2025-04-22 13:52:57,951 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 13:52:59,817 - ERROR - Erro de autenticação ao enviar o e-mail.
+2025-04-22 13:52:59,817 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com
+2025-04-22 13:52:59,860 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 13:53:01,716 - ERROR - Erro de autenticação ao enviar o e-mail.
+2025-04-22 13:53:01,716 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com
+2025-04-22 13:53:01,762 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 13:53:03,673 - ERROR - Erro de autenticação ao enviar o e-mail.
+2025-04-22 13:53:03,674 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com
+2025-04-22 13:53:03,674 - INFO - Processo de geração de PDFs e envio de e-mails concluído.

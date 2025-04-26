@@ -1,0 +1,9 @@
+2025-04-22 13:17:54,760 - ERROR - Arquivo PDF não encontrado: ./faturas_pdf/fatura_13.pdf
+2025-04-22 13:17:54,760 - ERROR - Falha ao enviar e-mail para Danito Pereira (email_aqui@exemplo.com) - Fatura #13
+2025-04-22 13:17:54,761 - ERROR - Arquivo PDF não encontrado: ./faturas_pdf/fatura_16.pdf
+2025-04-22 13:17:54,761 - ERROR - Falha ao enviar e-mail para ANDRE DA ROCHA MARTINS (email_aqui@exemplo.com) - Fatura #16
+2025-04-22 13:17:54,762 - ERROR - Arquivo PDF não encontrado: ./faturas_pdf/fatura_15.pdf
+2025-04-22 13:17:54,762 - ERROR - Falha ao enviar e-mail para Danito Pereira (email_aqui@exemplo.com) - Fatura #15
+2025-04-22 13:17:54,763 - ERROR - Arquivo PDF não encontrado: ./faturas_pdf/fatura_17.pdf
+2025-04-22 13:17:54,763 - ERROR - Falha ao enviar e-mail para Ana Souza (email_aqui@exemplo.com) - Fatura #17
+2025-04-22 13:17:54,763 - INFO - Nenhuma fatura foi enviada.

@@ -1,0 +1,6 @@
+Fatura_ID,Cliente_Nome,Cliente_Email,Cliente_Telefone,Fatura_Valor,Fatura_Data_Vencimento,Fatura_Status
+13,Danito Pereira,sds@rr.com,34334343434,45,2025-04-24,enviado
+14,Ana Souza,ana@email.com,31976543210,100,2025-04-24,enviado
+16,ANDRE DA ROCHA MARTINS,andremartinssc@gmail.com,48998535958,50,2025-04-22,enviado
+15,Danito Pereira,andremartinssc@gmail.com,34334343434,100,2025-04-29,enviado
+17,Ana Souza,andremartinssc@gmail.com,31976543210,200,2025-04-30,enviado

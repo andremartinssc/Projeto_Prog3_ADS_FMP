@@ -1,0 +1,10 @@
+2025-04-22 13:49:19,808 - INFO - Iniciando geração de PDFs a partir do CSV...
+2025-04-22 13:49:19,829 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:49:48,802 - INFO - Iniciando geração de PDFs a partir do CSV...
+2025-04-22 13:49:48,819 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 13:49:48,908 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 13:49:48,964 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 13:49:48,998 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 13:49:49,031 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 13:49:49,062 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 13:49:49,062 - INFO - Processo de geração de PDFs concluído.

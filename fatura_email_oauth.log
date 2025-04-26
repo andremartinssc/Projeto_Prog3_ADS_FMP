@@ -1,0 +1,371 @@
+2025-04-22 17:29:03,347 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 17:29:03,378 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 17:29:04,347 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 17:30:26,702 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 17:30:26,719 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 17:30:26,801 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 17:44:16,866 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 17:44:16,913 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 17:44:17,053 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 17:53:38,245 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 17:53:38,268 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 17:53:38,357 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 17:54:12,619 - INFO - "GET /?state=mfDgheE4cG5n2c5BnIHJHTFlVrBnPp&code=4/0Ab_5qlmhoG7YfTdm8ZlDMczUDN9P2WLDBNKGPgEKVJ9HaxBPQlewCgVAqFCbHSSy5hwD5g&scope=https://www.googleapis.com/auth/gmail.send HTTP/1.1" 200 65
+2025-04-22 17:54:13,075 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 17:54:13,081 - ERROR - Arquivo não encontrado para anexar: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 17:54:13,083 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com (OAuth 2.0)
+2025-04-22 17:54:13,118 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 17:54:13,802 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 17:54:15,943 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 17:54:18,494 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 17:54:18,495 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 17:54:18,496 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com (OAuth 2.0)
+2025-04-22 17:54:18,649 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 17:54:18,654 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 17:54:18,704 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 17:54:19,925 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 17:54:19,925 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 17:54:19,925 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com (OAuth 2.0)
+2025-04-22 17:54:19,956 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 17:54:19,960 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 17:54:20,113 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 17:54:21,393 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 17:54:21,393 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 17:54:21,393 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com (OAuth 2.0)
+2025-04-22 17:54:21,427 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 17:54:21,433 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 17:54:23,553 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 17:54:24,776 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 17:54:24,777 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 17:54:24,777 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com (OAuth 2.0)
+2025-04-22 17:54:24,777 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:03:46,074 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:03:46,107 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:03:46,210 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:03:46,225 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:03:47,160 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:03:48,404 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:03:48,405 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:03:48,405 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:03:48,433 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:03:48,439 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:03:48,471 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:03:49,642 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:03:49,642 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:03:49,642 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com (OAuth 2.0)
+2025-04-22 18:03:49,673 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:03:49,677 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:03:49,716 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:03:50,926 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:03:50,927 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:03:50,927 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com (OAuth 2.0)
+2025-04-22 18:03:50,966 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:03:50,971 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:03:51,007 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:03:52,204 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:03:52,205 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:03:52,205 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:03:52,240 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:03:52,244 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:03:52,346 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:03:53,578 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:03:53,578 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:03:53,579 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com (OAuth 2.0)
+2025-04-22 18:03:53,579 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:11:31,199 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:11:31,222 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:11:31,333 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:11:31,349 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:11:32,506 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:11:33,890 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:11:33,890 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:11:33,890 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:11:33,924 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:11:33,930 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:11:33,971 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:11:35,292 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:11:35,293 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:11:35,293 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com (OAuth 2.0)
+2025-04-22 18:11:35,330 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:11:35,336 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:11:35,375 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:11:36,734 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:11:36,735 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:11:36,735 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com (OAuth 2.0)
+2025-04-22 18:11:36,788 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:11:36,793 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:11:36,825 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:11:38,161 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:11:38,161 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:11:38,162 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:11:38,199 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:11:38,203 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:11:38,452 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:11:39,769 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:11:39,770 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:11:39,770 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com (OAuth 2.0)
+2025-04-22 18:11:39,770 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:12:35,460 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:12:35,481 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:12:35,578 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:12:35,598 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:12:36,101 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:12:37,501 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:12:37,502 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:12:37,502 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:12:37,531 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:12:37,536 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:12:37,561 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:12:38,777 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:12:38,777 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:12:38,778 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com (OAuth 2.0)
+2025-04-22 18:12:38,815 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:12:38,819 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:12:38,844 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:12:40,041 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:12:40,041 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:12:40,042 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com (OAuth 2.0)
+2025-04-22 18:12:40,080 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:12:40,085 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:12:40,115 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:12:41,288 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:12:41,289 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:12:41,289 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:12:41,321 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:12:41,326 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:12:41,383 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:12:42,588 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:12:42,588 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:12:42,588 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com (OAuth 2.0)
+2025-04-22 18:12:42,589 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:14:13,012 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:14:13,274 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:14:14,000 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:14:31,702 - INFO - "GET /?state=7b6ac5bEXxYCkIb4Fz5KhAyzR3UIpG&code=4/0Ab_5qln6D_NSbNdbnbubbPzEYxCKuHJhyJR9aEgABv4pphKTXIs4cS9VaJLT-u8_TuVGFw&scope=https://www.googleapis.com/auth/gmail.send HTTP/1.1" 200 65
+2025-04-22 18:14:32,422 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:14:33,371 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:14:35,606 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:14:35,607 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:14:35,610 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:14:35,668 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:14:35,668 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:14:35,730 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:14:38,838 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:14:38,839 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:14:38,839 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com (OAuth 2.0)
+2025-04-22 18:14:38,896 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:14:38,896 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:14:38,952 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:14:41,042 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:14:41,042 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:14:41,042 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com (OAuth 2.0)
+2025-04-22 18:14:41,088 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:14:41,088 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:14:41,197 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:14:42,599 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:14:42,599 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:14:42,599 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:14:42,646 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:14:42,646 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:14:43,224 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:14:44,536 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:14:44,552 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:14:44,552 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com (OAuth 2.0)
+2025-04-22 18:14:44,552 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:15:09,722 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:15:09,818 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:15:10,301 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:15:10,350 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:15:10,414 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:15:12,076 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:15:12,077 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:15:12,078 - ERROR - Falha ao enviar e-mail com fatura 13 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:15:12,148 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:15:12,152 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:15:12,264 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:15:13,555 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:15:13,556 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:15:13,556 - ERROR - Falha ao enviar e-mail com fatura 14 para ana@email.com (OAuth 2.0)
+2025-04-22 18:15:13,599 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:15:13,603 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:15:13,657 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:15:14,953 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:15:14,954 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:15:14,954 - ERROR - Falha ao enviar e-mail com fatura 16 para andremartinssc@gmail.com (OAuth 2.0)
+2025-04-22 18:15:14,989 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:15:14,994 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:15:15,029 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:15:16,367 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:15:16,368 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:15:16,368 - ERROR - Falha ao enviar e-mail com fatura 15 para sds@rr.com (OAuth 2.0)
+2025-04-22 18:15:16,399 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:15:16,404 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:15:16,458 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:15:17,824 - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2025-04-22 18:15:17,824 - ERROR - Ocorreu um erro ao enviar o e-mail: <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.". Details: "[{'message': 'Gmail API has not been used in project 1065354408793 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/gmail.googleapis.com/overview?project=1065354408793 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.', 'domain': 'usageLimits', 'reason': 'accessNotConfigured', 'extendedHelp': 'https://console.developers.google.com'}]">
+2025-04-22 18:15:17,825 - ERROR - Falha ao enviar e-mail com fatura 17 para ana@email.com (OAuth 2.0)
+2025-04-22 18:15:17,825 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:19:33,208 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:19:33,228 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:19:33,325 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:19:33,337 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:19:34,591 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:19:36,422 - INFO - Mensagem enviada para sds@rr.com Message Id: 1965f5ee3b727713
+2025-04-22 18:19:36,422 - INFO - E-mail com fatura 13 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 18:19:36,469 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:19:36,474 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:19:36,502 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:19:38,113 - INFO - Mensagem enviada para ana@email.com Message Id: 1965f5eea134849c
+2025-04-22 18:19:38,113 - INFO - E-mail com fatura 14 enviado para ana@email.com com OAuth 2.0
+2025-04-22 18:19:38,154 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:19:38,154 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:19:38,217 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:19:39,860 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1965f5ef07aeea1a
+2025-04-22 18:19:39,861 - INFO - E-mail com fatura 16 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-22 18:19:39,890 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:19:39,895 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:19:39,919 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:19:41,666 - INFO - Mensagem enviada para sds@rr.com Message Id: 1965f5ef87ba8413
+2025-04-22 18:19:41,667 - INFO - E-mail com fatura 15 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 18:19:41,705 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:19:41,710 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:19:41,838 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:19:43,429 - INFO - Mensagem enviada para ana@email.com Message Id: 1965f5effc89f4ab
+2025-04-22 18:19:43,429 - INFO - E-mail com fatura 17 enviado para ana@email.com com OAuth 2.0
+2025-04-22 18:19:43,429 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 18:22:35,776 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 18:22:35,782 - INFO - 5 faturas encontradas no CSV.
+2025-04-22 18:22:35,844 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 18:22:35,851 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:22:35,876 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 18:22:37,514 - INFO - Mensagem enviada para sds@rr.com Message Id: 1965f61a64c082b3
+2025-04-22 18:22:37,515 - INFO - E-mail com fatura 13 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 18:22:37,553 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-22 18:22:37,557 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:22:37,581 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-22 18:22:39,155 - INFO - Mensagem enviada para ana@email.com Message Id: 1965f61accf9c86a
+2025-04-22 18:22:39,155 - INFO - E-mail com fatura 14 enviado para ana@email.com com OAuth 2.0
+2025-04-22 18:22:39,186 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 18:22:39,190 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:22:39,210 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 18:22:40,807 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1965f61b46f72e53
+2025-04-22 18:22:40,808 - INFO - E-mail com fatura 16 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-22 18:22:40,844 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 18:22:40,849 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:22:40,869 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 18:22:42,450 - INFO - Mensagem enviada para sds@rr.com Message Id: 1965f61ba0b2056c
+2025-04-22 18:22:42,451 - INFO - E-mail com fatura 15 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 18:22:42,490 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 18:22:42,496 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 18:22:42,518 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 18:22:44,118 - INFO - Mensagem enviada para ana@email.com Message Id: 1965f61c18ed9d0a
+2025-04-22 18:22:44,119 - INFO - E-mail com fatura 17 enviado para ana@email.com com OAuth 2.0
+2025-04-22 18:22:44,119 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 22:27:03,124 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 22:29:30,236 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 22:29:30,266 - INFO - 4 faturas pendentes encontradas no CSV.
+2025-04-22 22:29:30,802 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 22:29:31,128 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:29:31,374 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 22:29:33,205 - INFO - Mensagem enviada para sds@rr.com Message Id: 1966043b66e483af
+2025-04-22 22:29:33,206 - INFO - E-mail com fatura 13 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 22:29:33,243 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 22:29:33,279 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:29:33,309 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 22:29:35,018 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1966043be516161b
+2025-04-22 22:29:35,018 - INFO - E-mail com fatura 16 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-22 22:29:35,060 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 22:29:35,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:29:35,092 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 22:29:36,813 - INFO - Mensagem enviada para sds@rr.com Message Id: 1966043c5d0c964e
+2025-04-22 22:29:36,813 - INFO - E-mail com fatura 15 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 22:29:36,844 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 22:29:36,849 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:29:36,892 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 22:29:38,568 - INFO - Mensagem enviada para ana@email.com Message Id: 1966043ccebfa7a3
+2025-04-22 22:29:38,568 - INFO - E-mail com fatura 17 enviado para ana@email.com com OAuth 2.0
+2025-04-22 22:29:38,585 - ERROR - Erro ao salvar o arquivo CSV: [Errno 13] Permission denied: 'faturas_com_dados_cliente.csv'
+2025-04-22 22:29:38,585 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 22:35:17,602 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 22:35:17,632 - INFO - 4 faturas pendentes encontradas no CSV.
+2025-04-22 22:35:17,718 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-22 22:35:17,728 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:35:18,243 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-22 22:35:20,064 - INFO - Mensagem enviada para sds@rr.com Message Id: 196604903e595c40
+2025-04-22 22:35:20,064 - INFO - E-mail com fatura 13 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 22:35:20,112 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-22 22:35:20,116 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:35:20,137 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-22 22:35:21,760 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1966049081ef74ba
+2025-04-22 22:35:21,761 - INFO - E-mail com fatura 16 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-22 22:35:21,803 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-22 22:35:21,808 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:35:21,827 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-22 22:35:23,491 - INFO - Mensagem enviada para sds@rr.com Message Id: 196604910be00885
+2025-04-22 22:35:23,493 - INFO - E-mail com fatura 15 enviado para sds@rr.com com OAuth 2.0
+2025-04-22 22:35:23,520 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-22 22:35:23,524 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-22 22:35:23,600 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-22 22:35:25,219 - INFO - Mensagem enviada para ana@email.com Message Id: 1966049164434479
+2025-04-22 22:35:25,219 - INFO - E-mail com fatura 17 enviado para ana@email.com com OAuth 2.0
+2025-04-22 22:35:25,237 - INFO - Arquivo CSV 'faturas_com_dados_cliente.csv' atualizado com os status das faturas.
+2025-04-22 22:35:25,237 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-22 22:35:58,394 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-22 22:35:58,401 - INFO - 0 faturas pendentes encontradas no CSV.
+2025-04-22 22:35:58,407 - INFO - Arquivo CSV 'faturas_com_dados_cliente.csv' atualizado com os status das faturas.
+2025-04-22 22:35:58,407 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-23 14:51:00,701 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-23 14:51:00,710 - INFO - 2 faturas pendentes encontradas no CSV.
+2025-04-23 14:51:00,774 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-23 14:51:01,107 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-23 14:51:01,181 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-23 14:51:02,917 - INFO - Mensagem enviada para ana@email.com Message Id: 19663c64d36331aa
+2025-04-23 14:51:02,917 - INFO - E-mail com fatura 14 enviado para ana@email.com com OAuth 2.0
+2025-04-23 14:51:02,949 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-23 14:51:02,971 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-23 14:51:02,993 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-23 14:51:04,572 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 19663c65535ecfbf
+2025-04-23 14:51:04,573 - INFO - E-mail com fatura 16 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-23 14:51:04,595 - INFO - Arquivo CSV 'faturas_com_dados_cliente.csv' atualizado com os status das faturas.
+2025-04-23 14:51:04,596 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-25 09:12:03,060 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-25 09:12:03,089 - INFO - 6 faturas pendentes encontradas no CSV.
+2025-04-25 09:12:03,186 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-25 09:14:01,632 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-25 09:14:01,641 - INFO - 6 faturas pendentes encontradas no CSV.
+2025-04-25 09:14:01,728 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-25 09:14:04,333 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-25 09:14:04,457 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-25 09:15:10,134 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-25 09:15:10,163 - INFO - 0 faturas pendentes encontradas no CSV.
+2025-04-25 09:15:10,173 - INFO - Arquivo CSV 'faturas_com_dados_cliente.csv' atualizado com os status das faturas.
+2025-04-25 09:15:10,174 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
+2025-04-25 09:17:28,660 - INFO - Iniciando geração de PDFs e envio de e-mails com OAuth 2.0 a partir do CSV...
+2025-04-25 09:17:28,684 - INFO - 5 faturas pendentes encontradas no CSV.
+2025-04-25 09:17:28,767 - INFO - Fatura 13 (Danito Pereira) gerada como 'fatura_13_danitopereira.pdf' com sucesso.
+2025-04-25 09:17:28,968 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-25 09:17:29,132 - INFO - Arquivo anexado: ./faturas_pdf/fatura_13_danitopereira.pdf
+2025-04-25 09:17:42,534 - INFO - Mensagem enviada para sds@rr.com Message Id: 1966ce1d278229ac
+2025-04-25 09:17:42,535 - INFO - E-mail com fatura 13 enviado para sds@rr.com com OAuth 2.0
+2025-04-25 09:17:42,583 - INFO - Fatura 14 (Ana Souza) gerada como 'fatura_14_anasouza.pdf' com sucesso.
+2025-04-25 09:17:42,587 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-25 09:17:42,610 - INFO - Arquivo anexado: ./faturas_pdf/fatura_14_anasouza.pdf
+2025-04-25 09:17:45,803 - INFO - Mensagem enviada para ana@email.com Message Id: 1966ce1e0c411f25
+2025-04-25 09:17:45,804 - INFO - E-mail com fatura 14 enviado para ana@email.com com OAuth 2.0
+2025-04-25 09:17:45,840 - INFO - Fatura 16 (ANDRE DA ROCHA MARTINS) gerada como 'fatura_16_andredarochamartins.pdf' com sucesso.
+2025-04-25 09:17:45,844 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-25 09:17:45,864 - INFO - Arquivo anexado: ./faturas_pdf/fatura_16_andredarochamartins.pdf
+2025-04-25 09:17:57,369 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1966ce20fe4263d1
+2025-04-25 09:17:57,369 - INFO - E-mail com fatura 16 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-25 09:17:57,411 - INFO - Fatura 15 (Danito Pereira) gerada como 'fatura_15_danitopereira.pdf' com sucesso.
+2025-04-25 09:17:57,416 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-25 09:17:57,436 - INFO - Arquivo anexado: ./faturas_pdf/fatura_15_danitopereira.pdf
+2025-04-25 09:18:00,853 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1966ce21ce279035
+2025-04-25 09:18:00,853 - INFO - E-mail com fatura 15 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-25 09:18:00,895 - INFO - Fatura 17 (Ana Souza) gerada como 'fatura_17_anasouza.pdf' com sucesso.
+2025-04-25 09:18:00,900 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-25 09:18:00,954 - INFO - Arquivo anexado: ./faturas_pdf/fatura_17_anasouza.pdf
+2025-04-25 09:18:04,641 - INFO - Mensagem enviada para andremartinssc@gmail.com Message Id: 1966ce22a82f1626
+2025-04-25 09:18:04,641 - INFO - E-mail com fatura 17 enviado para andremartinssc@gmail.com com OAuth 2.0
+2025-04-25 09:18:04,672 - INFO - Arquivo CSV 'faturas_com_dados_cliente.csv' atualizado com os status das faturas.
+2025-04-25 09:18:04,673 - INFO - Processo de geração de PDFs e envio de e-mails com OAuth 2.0 concluído.
