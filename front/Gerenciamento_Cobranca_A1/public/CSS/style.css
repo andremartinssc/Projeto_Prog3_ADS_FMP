@@ -1,0 +1,281 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button[type="submit"],
+.botao {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Para links com classe 'botao' */
+}
+
+button[type="submit"]:hover,
+.botao:hover {
+    background-color: #0056b3;
+}
+
+.mensagem {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.erro {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.opcoes-cadastro {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.opcoes-cadastro p {
+    margin-bottom: 10px;
+}
+
+.cliente-lista {
+    margin-top: 20px;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cliente-lista h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cliente-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cliente-item:last-child {
+    border-bottom: none;
+}
+
+.acoes a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.acoes a:hover {
+    text-decoration: underline;
+}
+
+.busca-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.busca-container label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.busca-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Estilos para a div de navegação */
+.navegacao {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.navegacao a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navegacao a:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="date"],
+    select,
+    button[type="submit"],
+    .botao {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .cliente-lista {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .cliente-lista h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .cliente-item {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .acoes a {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .busca-container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .busca-container label {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .busca-container input[type="text"] {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .navegacao {
+        top: 10px;
+        left: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navegacao a {
+        width: 100%;
+        text-align: center;
+    }
+}
